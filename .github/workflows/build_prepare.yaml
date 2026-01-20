@@ -1,6 +1,6 @@
 # This action helps perform common actions before the build_* actions are started in parallel.
 on:
-    workflow_call:
+    workflow_dispatch: 
         inputs:
             config:
                 type: string
