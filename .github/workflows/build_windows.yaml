@@ -9,7 +9,7 @@ defaults:
     run:
         shell: powershell
 on:
-    workflow_call:
+    workflow_dispatch:
         secrets:
             ESIGNER_USER_NAME:
                 required: false
